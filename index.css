@@ -1,0 +1,116 @@
+  @import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Ruda&display=swap');
+header{
+    font-family: 'Ruda', sans-serif;
+    color: white;
+    background-color: black;
+}
+.header-container{
+    display: flex;
+    margin-left: 2rem;
+}
+.header-item-1{
+    margin-right:25rem;
+}
+.header-item-2{
+    margin-right: 2rem;
+}
+.header-item-3{
+    width:30px;
+    color: white;
+    margin-right: 4rem;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-rectangle{
+    width:20rem;
+    height:1rem;
+    background-color:#F24C4C;
+    ;
+    margin-left: 20vw;
+    align-content: center;
+}
+.main-item1{
+    background-image: url(./images/51-pizza-png-image.png);
+    position: relative;
+    background-size: cover;
+    height: 50vw;
+    background-color: black;
+margin-bottom: 20px;
+
+}
+.main-p{
+    width:20vw;
+    /* align-items: center; */
+    margin-left: 2vw;
+    padding-left: 20vw;
+    text-align: center;
+    padding-top: 10vh;
+}
+.main-item1 h1{
+    padding-top: 30vh;
+    padding-left: 20vw;
+    margin-left: 2vw;
+    /* text-align: center; */
+
+}
+.main-container-1{
+    font-family: 'Quattrocento', serif;
+    color: rgb(254,254,254);
+    box-sizing: border-box;
+    font-size: 20px;
+    letter-spacing: 0.09em;
+    margin-bottom: 4rem;
+}
+body{
+    background-color: black;
+}
+.h1{
+    text-align: center;
+}
+.main-rectangle-2{
+    width:20rem;
+    height:1rem;
+    background-color:#F24C4C;
+    margin-left: 40%;
+    align-content: center;   
+}
+.main-container-2{
+    display: flex;
+    margin-left: 12.5%;
+}
+.main-container-2 p
+{
+    width:50%;   
+}
+.main-container-3-h2
+{
+    margin-left: 45%;
+}
+.main-container-3-p
+{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+.main-grid
+{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.grid-items
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.grid-item-1
+{
+    display: flex;
+}
+footer
+{
+    margin-top: 2rem;
+    color: white;
+}
